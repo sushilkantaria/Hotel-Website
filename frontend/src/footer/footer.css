@@ -1,0 +1,167 @@
+/* General Footer Styling */
+.footer-container {
+    font-family: "Times New Roman";
+    /* background-color: rgb(230, 230, 230); */
+    background-color: #000000;
+    color: white;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 40px; */
+}
+
+/* Footer Columns */
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.footer-left-section {
+    margin-right: 110px;
+}
+
+/* First Column: Logo, Vision, and Social Icons */
+.footer-logo {
+    flex: 1;
+    text-align: left;
+}
+
+.footer-logo img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.footer-logo p {
+    max-width: 250px;
+    font-size: 1rem;
+    color: #161515;
+    color: #bbb;
+    margin-top: 0;
+    margin-bottom: 10px; 
+    font-family: "grotsque";
+}
+
+/* Social Icons within the first column */
+.social-icons-horizontal {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons-horizontal li a {
+    color: #bbb;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons-horizontal li a:hover {
+    color: #fff;
+}
+
+/* Second and Third Columns */
+.footer-column {
+    flex: 1;
+    text-align: left;
+}
+
+.footer-column h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: black;
+    color: #bbb;
+    margin-top: 17px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #bbb;
+    transition: color 0.3s ease;
+    /* font-family:'sans-serif'; */
+}
+
+.footer-column ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+/*  */
+.footer-internal-social-media-handles {
+    display: flex;
+    gap: 10px; /* Adjust the gap between icons as needed */
+  }
+  
+  .footer-internal-social-media-handles a {
+    color: #fff; /* Or any color you prefer */
+    text-decoration: none;
+  }
+  
+  .footer-internal-social-media-handles img {
+    width: 18px; /* Adjust the icon size as needed */
+    height: 18px; /* Adjust the icon size as needed */
+  }
+
+/* Contact Info Styling */
+.contact-info {
+    list-style: none;
+    padding: 0;
+    line-height: 25px; /* Adjusted for better spacing */
+}
+
+.contact-info li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    color: #bbb;
+}
+
+.contact-info .contact-icon {
+    margin-right: 10px;
+    color: #bbb;
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    margin-top: 30px;
+    text-align: center;
+    color: #bbb;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9rem;
+    font-family:  monospace;
+}
+
+.footer-wrapper {
+    width: 100%;
+}
+
+
+.policy-links {
+    margin-bottom: 10px;
+}
+
+.policy-link {
+    margin-right: 10px;
+    padding: 5px 10px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 1.001rem;
+}
+
+.policy-link:hover {
+    color: #ffffff;
+}

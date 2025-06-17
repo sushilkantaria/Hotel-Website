@@ -1,0 +1,49 @@
+.navbar {
+  position: fixed; /* Fix the navbar at the top */
+  top: 0; /* Align it to the top */
+  width: 85%; /* Make it span the entire width */
+  z-index: 1000; /* Ensure it stays above other content */
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 130px;
+  padding-right: 165px;
+  padding-top: 5px;
+  background-color: black;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+  .logo img {
+    width: 105px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: 600;
+    font-size: 1.15em;
+    text-decoration: none;
+    padding-left: 80px;
+  }
+  
+  .navbar li a:hover {
+    color: #e56617;
+    text-decoration: underline dashed;
+    text-underline-offset: 10px;  /* margin top under font */
+  }
+  

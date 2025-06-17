@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+
+/* General styles for About page */
+.about-page {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    margin-top: 70px; 
+  }
+  
+  /* Horizontal lines */
+  .about-hr-line {
+    border: none;
+    height: 1px;
+    background: rgb(255, 255, 255);
+    margin: 20px 0;
+  }
+  
+  /* About Us Heading */
+  .about-heading {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-bottom: 8px;
+    font-family: "Times New Roman";
+  }
+  
+  /* Image Section */
+  .about-img-section {
+    margin: 20px auto;
+    width:90%;
+  }
+  
+  .about-main-img {
+    max-width: 100%;
+    width: 100%;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Text Section */
+  .about-text-section {
+    margin: 20px auto;
+    max-width: 1100px;
+    line-height: 1.8;
+    color: #ffffff;
+    
+      /* line-height: 1.5em; */
+    
+  }
+  
+  .about-text-section p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 1.07em;
+    letter-spacing: 0.35px;
+    word-spacing: 1px;
+    text-align: justify;
+  }
+  
+  /* Beliefs Section */
+  .about-beliefs-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    max-width: 900px;
+  }
+  
+  @media (min-width: 768px) {
+    .about-beliefs-section {
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+  
+  .beliefs-img {
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .beliefs-img {
+      margin-bottom: 0;
+      margin-right: 20px;
+      
+    }
+  }
+  
+  .portrait-img {
+    width: 320px;
+    height: 460px;
+    max-height: 500px;
+    /* border-radius: 50%; */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .beliefs-text {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.8;
+    color: #ffffff;
+    max-width: 290px;
+  }
+  
+  .beliefs-text strong {
+    font-weight:100;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    font-family: "Playfair Display";
+
+  }
+  

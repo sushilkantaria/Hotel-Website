@@ -1,0 +1,113 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    /* margin-top: 120px; */
+}
+
+.contact-form {
+    max-width: 1111px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #ffffff; */
+    border-radius: 0; /* Removed border radius */
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+    margin-top:100px;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-input,
+.form-textarea {
+    flex: 1;
+    margin: 5px;
+    padding: 20px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    /* border-radius: 4px; */
+    background-color: #f5f5f5;
+    outline: none;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    border-color: rgb(23, 47, 61);
+    background-color: #fff;
+}
+
+textarea.form-textarea {
+    height: 100px;
+    resize: none;
+}
+
+.phone-row {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.phone-row label {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 5px;
+}
+
+.form-submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(201, 143, 55);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0; /* Removed border radius */
+    cursor: pointer;
+    text-align: center; /* Center text for the button */
+    transition: background-color 0.3s ease;
+}
+
+.form-submit-button:hover {
+    background-color: rgb(207, 168, 111);
+}
+
+/* Error and validation styles */
+.form-input::placeholder,
+.form-textarea::placeholder {
+    color: #999;
+}
+
+select.form-input {
+    color: #555;
+}
+
+select.form-input option:first-child {
+    color: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+/* Hearts Page Styles */
+.hearts-page {
+    /* padding: 20px; */
+    text-align: center;
+    background-color: #000000;
+    /* margin-top: 90px; */
+  }
+  
+  .hearts-heading {
+    font-size: 2.5rem;
+    color: #BF7A53;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-family: "Times New Roman";
+    padding-top: 40px;
+    top: 0%;
+    margin-top: 90px;
+  }
+  
+  /* Gallery grid layout */
+  .hearts-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    justify-content: center;
+    padding: 0 10px;
+  }
+  
+  /* Individual card */
+  .hearts-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #fff; */
+    /* border: 1px solid #ddd; */
+    /* border-radius: 10px; */
+    overflow: hidden;
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .hearts-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Images inside the cards */
+  .hearts-img {
+    max-height: 450px;
+    max-width: 600px;
+    width: auto;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  
