@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import './home.css';
 
 // imported assets
-import bgVid from '..//assets/211152.mov';
+// import bgVid from '..//assets/211152.mov';
 import { FaMapMarkerAlt, FaConciergeBell, FaImages, FaHeart, FaAward } from 'react-icons/fa';
 
 
@@ -54,7 +54,7 @@ function Home() {
       <div className="vid-entire-container">
         <section className="video-section">
           <video autoPlay muted loop>
-            <source src={bgVid} type="video/mp4" />
+            <source src='' type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="video-content">
