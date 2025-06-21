@@ -6,8 +6,7 @@ A fully responsive and visually appealing hotel website built with HTML, CSS, an
 
 ## 🔍 Live Demo
 
-🌐 [View Website](https://hotel-website-beta-murex.vercel.app/)  
-*(Make sure GitHub Pages is configured in the repo settings)*
+🌐 [View Website](https://hotel-website-beta-murex.vercel.app/)
 
 ---
 
