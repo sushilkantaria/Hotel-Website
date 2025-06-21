@@ -6,7 +6,7 @@ A fully responsive and visually appealing hotel website built with HTML, CSS, an
 
 ## 🔍 Live Demo
 
-🌐 [View Website](https://sushilkantaria.github.io/Hotel-Website/)  
+🌐 [View Website](https://hotel-website-beta-murex.vercel.app/)  
 *(Make sure GitHub Pages is configured in the repo settings)*
 
 ---
@@ -30,21 +30,5 @@ A fully responsive and visually appealing hotel website built with HTML, CSS, an
 | HTML5      | Markup for structure         |
 | CSS3       | Styling using Flexbox/Grid   |
 | JavaScript | Interactivity and navigation |
-| GitHub     | Version control & hosting    |
-
----
-
-## 📸 Screenshots
-
-### ✅ Home Page  
-![Homepage](./assets/screenshots/homepage.png)
-
-### ✅ Rooms Section  
-![Rooms](./assets/screenshots/rooms.png)
-
-*(Add actual screenshots in `assets/screenshots/` or update the path)*
-
----
-
-## 🗂️ Project Structure
-
+| GitHub     | Version control              |
+| Vercel     | Hosting                      |
