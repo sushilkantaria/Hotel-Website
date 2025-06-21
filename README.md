@@ -1,6 +1,6 @@
 # Hotel Booking Website Frontend
 
-### A sleek, responsive, and user-friendly hotel booking interface built with React
+### A modern, responsive hotel booking frontend built with React.js. This project offers a clean and interactive user experience for browsing hotel rooms, viewing details, and simulating the booking process. Designed for both mobile and desktop, the UI uses reusable components and React Router for smooth navigation.
 
 ---
 
