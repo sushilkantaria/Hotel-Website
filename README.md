@@ -1,33 +1,76 @@
-# 🏨 Hotel Website
+# Hotel Booking Website Frontend
 
-A fully responsive and visually appealing hotel website built with HTML, CSS, and JavaScript. The project showcases a modern hotel website interface including rooms, services, booking sections, and more — perfect for hotels, resorts, or hospitality businesses.
-
----
-
-## 🔍 Live Demo
-
-🌐 [View Website](https://hotel-website-beta-murex.vercel.app/)
+### A sleek, responsive, and user-friendly hotel booking interface built with React
 
 ---
 
-## 📌 Features
+## 🚀 Live Demo
 
-- Modern, clean UI/UX
-- Responsive design for all devices
-- Homepage with hero section
-- Room listings with images and descriptions
-- Booking form UI (non-functional placeholder)
-- Navigation bar and sticky header
-- Footer with contact and social links
+[View Live Demo](https://hotel-website-beta-murex.vercel.app/)  
+
 
 ---
 
-## 💻 Tech Stack
+## 📑 Table of Contents
 
-| Technology | Description                  |
-|------------|------------------------------|
-| HTML5      | Markup for structure         |
-| CSS3       | Styling using Flexbox/Grid   |
-| JavaScript | Interactivity and navigation |
-| GitHub     | Version control              |
-| Vercel     | Hosting                      |
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact / Author](#contact--author)
+
+---
+
+## ✨ Features
+
+- Modern hotel booking UI
+- Interactive homepage with navigation
+- Room listing and details
+- Easy-to-use booking interface
+- Responsive design for mobile and desktop
+- Clean and reusable components
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend:**
+- React.js
+- HTML5
+- CSS3
+- JavaScript
+
+**Other Tools:**
+- React Router
+- Git & GitHub
+
+---
+
+## 📁 Project Structure
+
+frontend/
+├── public/
+│ └── index.html
+├── src/
+│ ├── components/ # Reusable React components
+│ ├── pages/ # Main pages like Home, Rooms, etc.
+│ ├── App.js # Root component
+│ ├── index.js # Entry point
+│ └── styles/ # CSS files
+└── package.json
+
+---
+
+## ⚙️ Installation
+
+1. **Clone the repository:**
+   git clone https://github.com/sushilkantaria/Hotel-Website.git
+   cd Hotel-Website/frontend
+
+2. **Install dependencies:**
+   npm install
+
+2. **Start the development server:**
+   npm start
