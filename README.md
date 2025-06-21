@@ -8,19 +8,6 @@
 
 [View Live Demo](https://hotel-website-beta-murex.vercel.app/)  
 
-
----
-
-## 📑 Table of Contents
-
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact / Author](#contact--author)
-
 ---
 
 ## ✨ Features
